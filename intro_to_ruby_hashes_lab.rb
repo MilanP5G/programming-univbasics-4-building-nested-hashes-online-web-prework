@@ -62,6 +62,7 @@ def monopoly_with_fourth_tier
         :four_pieces_owned => 200
       },
       :names => {
+<<<<<<< HEAD
         :reading_railroad => {"mortgage_value" => "$100"},
         :pennsylvania_railroad => {"mortgage_value" => "$200"},
         :b_and_o_railroad => {"mortgage_value" => "$400"},
@@ -71,6 +72,16 @@ def monopoly_with_fourth_tier
   }
   
  
+=======
+        :reading_railroad => {"mortgage_value" => $100},
+        :pennsylvania_railroad => {},
+        :b_and_o_railroad => {},
+        :shortline_railroad => {}
+      }
+    }
+  }
+ puts monopoly_with_fourth_tier[:railroads][:names][:reading_railroad]["mortgage_value"]
+>>>>>>> 6acb9c625e9bef85d56b8bb282963a9498412098
   
   
   
